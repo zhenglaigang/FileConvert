@@ -42,6 +42,12 @@
             <version>5.2.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>e-iceblue</groupId>
+            <artifactId>spire.pdf.free</artifactId>
+            <version>5.1.0</version>
+        </dependency>
+
         <!--apache poi 实现word转pdf 需引入依赖-->
         <dependency>
             <groupId>org.apache.poi</groupId>
@@ -53,6 +59,13 @@
             <artifactId>fr.opensagres.poi.xwpf.converter.pdf-gae</artifactId>
             <version>2.0.1</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.pdfbox</groupId>
+            <artifactId>pdfbox</artifactId>
+            <version>2.0.22</version>
+        </dependency>
+
     </dependencies>
 
     <build>
